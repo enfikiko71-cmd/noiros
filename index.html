@@ -85,6 +85,14 @@ section{padding:70px 40px;border-bottom:1px solid #111}
 .soon-name{font-size:16px;font-weight:700;color:#fff;margin-bottom:4px}
 .soon-name span{color:#C9A84C}
 .soon-desc{font-size:11px;color:#444;line-height:1.4}
+/* ECOSISTEMA NOIR (enlaces activos) */
+.eco-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;max-width:760px;margin:0 auto}
+.eco-card{background:#0d0d0d;border:1px solid #C9A84C33;border-radius:10px;padding:26px;text-decoration:none;display:block;transition:border-color .2s,transform .2s}
+.eco-card:hover{border-color:#C9A84C;transform:translateY(-2px)}
+.eco-tag{font-size:10px;letter-spacing:2px;color:#C9A84C;margin-bottom:10px;text-transform:uppercase}
+.eco-name{font-size:18px;font-weight:700;color:#fff;margin-bottom:8px}
+.eco-desc{font-size:12px;color:#666;line-height:1.5;margin-bottom:16px}
+.eco-link{font-size:12px;color:#C9A84C}
 /* CÓMO INSTALAR */
 .steps{max-width:600px;margin:0 auto}
 .step{display:flex;gap:20px;margin-bottom:28px;align-items:flex-start}
@@ -315,6 +323,27 @@ section{padding:50px 20px}
 <div class="soon-name">NoirOS <span>Rescue</span></div>
 <div class="soon-desc">Linux con herramientas de diagnóstico y reparación.</div>
 </div>
+</div>
+</section>
+
+<!-- ECOSISTEMA NOIR -->
+<section>
+<p class="section-title">Parte de NoirLab</p>
+<h2 class="section-h2">Más del ecosistema Noir</h2>
+<p class="section-sub">Otros proyectos activos, en vivo ahora mismo</p>
+<div class="eco-grid">
+<a class="eco-card" href="https://enfikiko71-cmd.github.io/noirpcrepair/" target="_blank">
+<div class="eco-tag">Taller técnico</div>
+<div class="eco-name">Noir PC Repair</div>
+<div class="eco-desc">Reparación y mantenimiento de PC en Durán. Instalamos NoirOS gratis con cualquier servicio.</div>
+<div class="eco-link">Ver sitio en vivo →</div>
+</a>
+<a class="eco-card" href="https://enfikiko71-cmd.github.io/Noir-Site/" target="_blank">
+<div class="eco-tag">Diseño web</div>
+<div class="eco-name">Noir Sites</div>
+<div class="eco-desc">Páginas web a medida, sin plantillas genéricas y sin costo mensual de hosting.</div>
+<div class="eco-link">Ver sitio en vivo →</div>
+</a>
 </div>
 </section>
 
