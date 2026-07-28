@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Cómo reconocer las señales de alerta antes de que un disco duro falle, y qué hacer con tus archivos a tiempo.">
+<title>Qué hacer antes de que tu disco duro muera — Blog NoirOS</title>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J90CG38JYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-J90CG38JYN');
+</script>
+
+<!-- AdSense: unidad de anuncio sugerida aquí, arriba del artículo -->
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0A0A0A;color:#e0e0e0;line-height:1.7}
+nav{position:sticky;top:0;z-index:100;background:#0A0A0Aee;backdrop-filter:blur(12px);border-bottom:1px solid #1a1a1a;padding:0 40px;height:64px;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-logo span{font-size:17px;font-weight:700;letter-spacing:2px}
+.nav-cta{background:#C9A84C;color:#0A0A0A;border:none;padding:8px 20px;border-radius:5px;font-weight:700;font-size:13px;text-decoration:none}
+.wrap{max-width:720px;margin:0 auto;padding:56px 24px 80px}
+.back{font-size:13px;color:#666;text-decoration:none;display:inline-block;margin-bottom:24px}
+.back:hover{color:#C9A84C}
+.tag{font-size:11px;letter-spacing:2px;color:#C9A84C;text-transform:uppercase;margin-bottom:14px}
+h1{font-size:34px;line-height:1.2;margin-bottom:14px;color:#fff}
+.meta{font-size:13px;color:#555;margin-bottom:40px}
+h2{font-size:22px;color:#fff;margin:36px 0 14px}
+p{font-size:16px;color:#ccc;margin-bottom:16px}
+ul{margin:0 0 16px 20px;color:#ccc;font-size:16px}
+li{margin-bottom:10px}
+.callout{background:#0d0d0d;border-left:3px solid #C9A84C;padding:18px 22px;margin:28px 0;border-radius:0 8px 8px 0;font-size:14px;color:#aaa}
+.warn{background:#1a0d0d;border-left:3px solid #C94C4C;padding:18px 22px;margin:28px 0;border-radius:0 8px 8px 0;font-size:14px;color:#d99}
+.cta-box{background:#0d0d0d;border:1px solid #C9A84C33;border-radius:12px;padding:28px;margin-top:48px;text-align:center}
+.cta-box h3{color:#fff;font-size:18px;margin-bottom:10px}
+.cta-box p{font-size:14px;color:#888;margin-bottom:18px}
+.btn-gold{background:#C9A84C;color:#0A0A0A;border:none;padding:12px 26px;border-radius:6px;font-weight:700;font-size:13px;text-decoration:none;display:inline-block}
+footer{padding:40px;text-align:center;font-size:11px;color:#444;border-top:1px solid #111}
+footer a{color:#666}
+</style>
+</head>
+<body>
+
+<nav>
+<a class="nav-logo" href="../index.html">
+<svg width="30" height="30" viewBox="0 0 32 32">
+<polygon points="16,2 29,9 29,23 16,30 3,23 3,9" fill="#0D0D05" stroke="#C9A84C" stroke-width="1.8"/>
+<text x="16" y="21" font-size="12" font-weight="700" fill="#C9A84C" text-anchor="middle" font-family="Segoe UI">N</text>
+</svg>
+<span><span style="color:#C9A84C">Noir</span><span style="color:#fff">OS</span></span>
+</a>
+<a class="nav-cta" href="../index.html#descargas">⬇ Descargar</a>
+</nav>
+
+<div class="wrap">
+<a class="back" href="index.html">← Volver al blog</a>
+<div class="tag">Mantenimiento</div>
+<h1>Qué hacer antes de que tu disco duro muera (señales de alerta)</h1>
+<p class="meta">5 min de lectura</p>
+
+<p>La mayoría de los discos no mueren de un momento a otro sin avisar — dan señales durante días o semanas antes de fallar del todo. El problema es que casi nadie sabe leer esas señales hasta que ya es tarde. Aquí te explicamos qué observar y qué hacer con tus archivos a tiempo.</p>
+
+<h2>La herramienta que ya tienes instalada: S.M.A.R.T.</h2>
+<p>Casi todos los discos modernos (sean mecánicos HDD o de estado sólido SSD) traen un sistema interno llamado S.M.A.R.T. (Self-Monitoring, Analysis and Reporting Technology) que monitorea su propia salud constantemente. Windows no te muestra esta información de forma visible por defecto, pero existen programas gratuitos como CrystalDiskInfo que la leen y te la muestran en un semáforo simple: verde (bien), amarillo (atención), rojo (reemplázalo ya).</p>
+
+<h2>Señales que puedes notar sin ningún programa</h2>
+<ul>
+<li><strong>Ruidos nuevos:</strong> clics repetitivos, chasquidos, o un zumbido distinto al habitual en discos mecánicos — esto casi nunca es buena señal.</li>
+<li><strong>Archivos que se corrompen solos:</strong> documentos o fotos que antes abrían bien y ahora dan error al abrirlos.</li>
+<li><strong>La PC se congela justo al copiar o guardar archivos grandes.</strong></li>
+<li><strong>Carpetas que tardan mucho más de lo normal en mostrar su contenido.</strong></li>
+<li><strong>Windows te pide reparar el disco en cada reinicio.</strong></li>
+</ul>
+
+<h2>Discos mecánicos (HDD) vs. discos de estado sólido (SSD)</h2>
+<p>Los discos mecánicos suelen avisar con ruidos, porque tienen partes físicas que se desgastan. Los SSD, en cambio, casi nunca hacen ruido — cuando fallan, suelen hacerlo de forma más repentina, por eso monitorear el S.M.A.R.T. periódicamente es todavía más importante en un SSD que en un disco mecánico.</p>
+
+<div class="warn">⚠️ Si tu disco ya está haciendo ruidos extraños, deja de usarlo para escribir archivos nuevos de inmediato. Cada operación adicional aumenta el riesgo de perder lo que aún no has respaldado. Prioriza copiar lo importante a otro lugar antes de seguir usándolo con normalidad.</div>
+
+<h2>El respaldo simple que cualquiera puede mantener</h2>
+<p>No hace falta un sistema complicado. La regla más simple y efectiva es tener tus archivos importantes en al menos dos lugares distintos al mismo tiempo: tu disco principal, y una copia en un disco externo o en la nube (Google Drive, OneDrive, etc.). Si alguno de los dos falla, el otro te salva. Revisa ese respaldo una vez al mes — no sirve de nada si la última copia tiene un año de antigüedad.</p>
+
+<h2>Cuándo vale la pena reparar vs. cuándo reemplazar</h2>
+<p>Si el S.M.A.R.T. muestra "sectores reasignados" en aumento constante, o si el disco ya tiene varios años de uso intensivo, generalmente sale más barato a largo plazo reemplazarlo directamente que seguir "aguantando" — el costo de perder información importante suele ser mayor que el de un disco nuevo.</p>
+
+<div class="callout">💡 Un diagnóstico de salud del disco toma solo unos minutos y puede ahorrarte la pérdida de años de fotos, documentos o trabajos. Vale la pena revisarlo aunque tu PC "se sienta bien" — muchas fallas empiezan silenciosas.</div>
+
+<div class="cta-box">
+<h3>¿Ya notas señales de alerta?</h3>
+<p>En Noir PC Repair hacemos diagnóstico de disco (SMART) gratuito, y respaldo de tus archivos antes de cualquier reparación.</p>
+<a class="btn-gold" href="https://enfikiko71-cmd.github.io/noirpcrepair/" target="_blank">Ver Noir PC Repair</a>
+</div>
+</div>
+
+<footer>
+<p>© 2026 NoirOS · <a href="index.html">Volver al blog</a> · <a href="../index.html">Inicio</a></p>
+</footer>
+
+</body>
+</html>
