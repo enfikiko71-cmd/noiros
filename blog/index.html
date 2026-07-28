@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Blog de NoirOS: guías, tips y explicaciones sobre optimización de Windows, mantenimiento de PC y buenas prácticas, escritas en español simple.">
+<meta name="keywords" content="blog NoirOS, optimizar Windows, mantenimiento de PC, Windows LTSC, disco duro SMART">
+<title>Blog — NoirOS</title>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J90CG38JYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-J90CG38JYN');
+</script>
+
+<!-- AdSense: pega aquí el script de verificación/anuncios una vez aprobada la cuenta -->
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0A0A0A;color:#e0e0e0;line-height:1.6}
+nav{position:sticky;top:0;z-index:100;background:#0A0A0Aee;backdrop-filter:blur(12px);border-bottom:1px solid #1a1a1a;padding:0 40px;height:64px;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-logo span{font-size:17px;font-weight:700;letter-spacing:2px}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{color:#888;text-decoration:none;font-size:13px;transition:color .2s}
+.nav-links a:hover{color:#C9A84C}
+.nav-cta{background:#C9A84C;color:#0A0A0A;border:none;padding:8px 20px;border-radius:5px;font-weight:700;font-size:13px;cursor:pointer;letter-spacing:1px;text-decoration:none}
+@media(max-width:800px){.nav-links{display:none}}
+
+.hero-blog{padding:70px 40px 50px;text-align:center;border-bottom:1px solid #111}
+.badge{display:inline-flex;align-items:center;gap:8px;background:#111;border:1px solid #C9A84C33;padding:6px 16px;border-radius:4px;font-size:11px;color:#C9A84C;letter-spacing:2px;margin-bottom:24px}
+.hero-blog h1{font-size:44px;font-weight:700;margin-bottom:16px}
+.hero-blog h1 span{color:#C9A84C}
+.hero-blog p{font-size:16px;color:#888;max-width:560px;margin:0 auto}
+
+section{padding:60px 40px;border-bottom:1px solid #111}
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;max-width:1000px;margin:0 auto}
+.blog-card{background:#0d0d0d;border:1px solid #1a1a1a;border-radius:12px;padding:28px;text-decoration:none;display:block;transition:border-color .2s}
+.blog-card:hover{border-color:#C9A84C55}
+.blog-tag{font-size:11px;letter-spacing:1px;color:#C9A84C;text-transform:uppercase;margin-bottom:10px}
+.blog-card h2{font-size:20px;color:#fff;margin-bottom:10px;line-height:1.3}
+.blog-card p{font-size:13px;color:#888;margin-bottom:16px}
+.blog-read{font-size:12px;color:#C9A84C}
+
+footer{padding:40px;display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center}
+.footer-logo{display:flex;align-items:center;gap:8px}
+.footer-links{display:flex;gap:20px;flex-wrap:wrap;justify-content:center}
+.footer-links a{color:#666;text-decoration:none;font-size:13px}
+.footer-links a:hover{color:#C9A84C}
+.footer-copy{font-size:11px;color:#444;max-width:600px}
+</style>
+</head>
+<body>
+
+<nav>
+<a class="nav-logo" href="../index.html">
+<svg width="30" height="30" viewBox="0 0 32 32">
+<polygon points="16,2 29,9 29,23 16,30 3,23 3,9" fill="#0D0D05" stroke="#C9A84C" stroke-width="1.8"/>
+<polygon points="16,8 24,12 24,20 16,24 8,20 8,12" fill="none" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/>
+<text x="16" y="21" font-size="12" font-weight="700" fill="#C9A84C" text-anchor="middle" font-family="Segoe UI">N</text>
+</svg>
+<span><span style="color:#C9A84C">Noir</span><span style="color:#fff">OS</span></span>
+</a>
+<ul class="nav-links">
+<li><a href="../index.html#descargas">Descargas</a></li>
+<li><a href="../index.html#noirhub">NOIRHUB</a></li>
+<li><a href="index.html">Blog</a></li>
+</ul>
+<a class="nav-cta" href="../index.html#descargas">⬇ Descargar</a>
+</nav>
+
+<section class="hero-blog">
+<div class="badge">✦ BLOG NOIROS</div>
+<h1>Guías y <span>tips</span> de mantenimiento</h1>
+<p>Explicaciones simples sobre optimización de Windows y cuidado de tu PC, sin tecnicismos innecesarios.</p>
+</section>
+
+<section>
+<div class="blog-grid">
+
+<a class="blog-card" href="optimizacion-windows.html">
+<div class="blog-tag">Optimización</div>
+<h2>10 señales de que tu PC necesita optimización (y qué hacer con cada una)</h2>
+<p>Desde el ventilador que nunca para hasta el "no responde" cada cinco minutos — aprende a leer las señales antes de que sea demasiado tarde.</p>
+<div class="blog-read">Leer artículo →</div>
+</a>
+
+<a class="blog-card" href="ltsc-vs-windows-normal.html">
+<div class="blog-tag">Windows</div>
+<h2>Windows 10 LTSC vs. Windows normal: qué cambia realmente</h2>
+<p>NoirOS está basado en la edición LTSC. Te explicamos qué es, por qué pesa menos, y qué se pierde (y qué se gana) al usarla.</p>
+<div class="blog-read">Leer artículo →</div>
+</a>
+
+<a class="blog-card" href="disco-duro-alertas.html">
+<div class="blog-tag">Mantenimiento</div>
+<h2>Qué hacer antes de que tu disco duro muera (señales de alerta)</h2>
+<p>La mayoría de los discos avisan antes de fallar. Te explicamos cómo leer esas señales y qué hacer con tus archivos a tiempo.</p>
+<div class="blog-read">Leer artículo →</div>
+</a>
+
+</div>
+</section>
+
+<footer>
+<div class="footer-logo">
+<svg width="24" height="24" viewBox="0 0 32 32">
+<polygon points="16,2 29,9 29,23 16,30 3,23 3,9" fill="none" stroke="#C9A84C" stroke-width="1.5"/>
+<text x="16" y="21" font-size="11" font-weight="700" fill="#C9A84C" text-anchor="middle" font-family="Segoe UI">N</text>
+</svg>
+<span style="font-size:14px;font-weight:700;letter-spacing:2px"><span style="color:#C9A84C">Noir</span><span style="color:#555">OS</span></span>
+</div>
+<div class="footer-links">
+<a href="../index.html">Inicio</a>
+<a href="../index.html#descargas">Descargas</a>
+<a href="https://enfikiko71-cmd.github.io/noirpcrepair/" target="_blank">Noir PC Repair</a>
+<a href="https://enfikiko71-cmd.github.io/Noir-Site/" target="_blank">Noir Sites</a>
+</div>
+<div class="footer-copy">
+<p>© 2026 NoirOS · Todos los derechos reservados</p>
+<p style="margin-top:6px">NoirOS no está afiliado con Microsoft Corporation · Windows es marca registrada de Microsoft</p>
+</div>
+</footer>
+
+</body>
+</html>
 
